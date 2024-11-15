@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Skyrim Theme</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <div class="welcome-section">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Skyrim Logo">
+            </div>
+            <div class="menu">
+                <p>Portfolio Sections</p>
+                <ul>
+                    <li><a href="laoding-about.html">À propos</a></li>
+                    <li><a href="laoding-project.html">Mes Projets</a></li>
+                    <li><a href="#" id="competences-link">Compétences</a></li>
+                    <li><a href="#" id="contactBtn">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <canvas id="smokeCanvas"></canvas>
+    </div>
+
+    <div class="popup" id="confirmation-popup">
+        <div class="popup-content">
+            <h2>SKSE Plugin Loader (2.2.6)</h2>
+            <p>  
+                A DLL plugin has failed to load correctly. If a new version of Skyrim was just released, the plugin needs to be updated. Please check the mod's webpage for updates.<br><br>
+                CrashLogger.dll: disabled, only compatible with versions earlier than 1.6.629<br><br>
+                Continuing to load may result in lost save data or other undesired behavior.<br>
+                Exit game? (yes highly suggested)
+            </p>
+            <div class="popup-buttons">
+                <button id="yes-button">Yes</button>
+                <button id="no-button">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-contact" id="popupContact">
+        <div class="popup-contact-content">
+            <button class="popup-close" id="popupClose">X</button>
+            <h1>Mon Portfolio</h1>
+            <h2>me Contacté</h2>
+            <p><b>Email :</b> derbecquem@gmail.com</p>
+            <p><b>Téléphone :</b> 06.32.50.78.76</p>
+            <p><b>Discord :</b> cepoko</p>
+            <p><b>Steam :</b> cepoko</p>
+            <p><b>GitHub :</b> github.com/cepoko-hub</p>
+            <p><b>battle.net :</b> sepoko#2958</p>
+    
+            <p>
+                Voyageur, toi qui as parcouru<br>
+                Ce site étrange et tortueux,<br>
+                Je te salue et te remercie<br>
+                Pour le temps que tu m’as accordé.<br><br>
+    
+                Comme un Dovah s’envole dans le ciel,<br>
+                Porte avec toi mes salutations éternelles.<br>
+                Que ton chemin soit pavé de succès,<br>
+                Et que les étoiles guident tes pas.<br><br>
+    
+                Fus Ro Dah, cher aventurier,<br>
+                Adieu, mais peut-être à bientôt.<br>
+            </p>
+        </div>
+    </div>
+
+    <script src="assets/js/smoke.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/crédit.js"></script>
+</body>
+</html>

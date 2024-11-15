@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chargement - Home</title>
+    <link rel="stylesheet" href="assets/css/laoding-about.css">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="image-3d-container">
+            <img src="assets/img/carousel-5.png" alt="Image 3D" class="image-3d">
+        </div>
+        <div class="lore-text">
+            <p>Dans les contrées étranges, il existe un artefact d'une rareté inestimable : la fumo de Cirno, emprisonnée dans unebouteille. Pour les initiés, ce trésor est le summum de l’humour, un chef-d’œuvre de folie douce et de poésie absurde.</p>
+        </div>
+        <canvas id="carouselSmokeCanvas"></canvas>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            window.location.href = 'index.html';
+        }, 2000);
+    </script>
+    <script src="assets/js/laoding-smoke.js"></script>
+</body>
+</html>
